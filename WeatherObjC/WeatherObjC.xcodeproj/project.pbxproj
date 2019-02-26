@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		467D7F682163766F00E7FF73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7F672163766F00E7FF73 /* AppDelegate.m */; };
-		467D7F6B2163766F00E7FF73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7F6A2163766F00E7FF73 /* ViewController.m */; };
 		467D7F6E2163766F00E7FF73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467D7F6C2163766F00E7FF73 /* Main.storyboard */; };
 		467D7F702163767000E7FF73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467D7F6F2163767000E7FF73 /* Assets.xcassets */; };
 		467D7F732163767000E7FF73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467D7F712163767000E7FF73 /* LaunchScreen.storyboard */; };
 		467D7F762163767000E7FF73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7F752163767000E7FF73 /* main.m */; };
+		ABCBCB8F2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBCB8E2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m */; };
+		ABCBCB932225F60000E35585 /* JKWeatherForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBCB922225F60000E35585 /* JKWeatherForecastViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		467D7F632163766F00E7FF73 /* WeatherObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467D7F662163766F00E7FF73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		467D7F672163766F00E7FF73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		467D7F692163766F00E7FF73 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		467D7F6A2163766F00E7FF73 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		467D7F6D2163766F00E7FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		467D7F6F2163767000E7FF73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		467D7F722163767000E7FF73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		467D7F742163767000E7FF73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467D7F752163767000E7FF73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABCBCB8D2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKDailyWeatherCollectionViewCell.h; sourceTree = "<group>"; };
+		ABCBCB8E2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDailyWeatherCollectionViewCell.m; sourceTree = "<group>"; };
+		ABCBCB912225F60000E35585 /* JKWeatherForecastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKWeatherForecastViewController.h; sourceTree = "<group>"; };
+		ABCBCB922225F60000E35585 /* JKWeatherForecastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKWeatherForecastViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,8 @@
 			children = (
 				467D7F662163766F00E7FF73 /* AppDelegate.h */,
 				467D7F672163766F00E7FF73 /* AppDelegate.m */,
-				467D7F692163766F00E7FF73 /* ViewController.h */,
-				467D7F6A2163766F00E7FF73 /* ViewController.m */,
+				ABCBCB902225F5AE00E35585 /* Views */,
+				ABCBCB8C2225F54800E35585 /* View Controllers */,
 				467D7F6C2163766F00E7FF73 /* Main.storyboard */,
 				467D7F6F2163767000E7FF73 /* Assets.xcassets */,
 				467D7F712163767000E7FF73 /* LaunchScreen.storyboard */,
@@ -69,6 +72,24 @@
 				467D7F752163767000E7FF73 /* main.m */,
 			);
 			path = WeatherObjC;
+			sourceTree = "<group>";
+		};
+		ABCBCB8C2225F54800E35585 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBCB912225F60000E35585 /* JKWeatherForecastViewController.h */,
+				ABCBCB922225F60000E35585 /* JKWeatherForecastViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ABCBCB902225F5AE00E35585 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBCB8D2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.h */,
+				ABCBCB8E2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467D7F6B2163766F00E7FF73 /* ViewController.m in Sources */,
+				ABCBCB8F2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m in Sources */,
+				ABCBCB932225F60000E35585 /* JKWeatherForecastViewController.m in Sources */,
 				467D7F762163767000E7FF73 /* main.m in Sources */,
 				467D7F682163766F00E7FF73 /* AppDelegate.m in Sources */,
 			);
