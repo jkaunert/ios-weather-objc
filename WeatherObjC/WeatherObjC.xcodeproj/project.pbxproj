@@ -14,6 +14,8 @@
 		467D7F762163767000E7FF73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 467D7F752163767000E7FF73 /* main.m */; };
 		ABCBCB8F2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBCB8E2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m */; };
 		ABCBCB932225F60000E35585 /* JKWeatherForecastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBCB922225F60000E35585 /* JKWeatherForecastViewController.m */; };
+		ABCBCB97222601F900E35585 /* JKDailyWeatherForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBCB96222601F900E35585 /* JKDailyWeatherForecast.m */; };
+		ABCBCB9B22260AEA00E35585 /* JKDailyWeatherForecastController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCBCB9A22260AEA00E35585 /* JKDailyWeatherForecastController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		ABCBCB8E2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDailyWeatherCollectionViewCell.m; sourceTree = "<group>"; };
 		ABCBCB912225F60000E35585 /* JKWeatherForecastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKWeatherForecastViewController.h; sourceTree = "<group>"; };
 		ABCBCB922225F60000E35585 /* JKWeatherForecastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKWeatherForecastViewController.m; sourceTree = "<group>"; };
+		ABCBCB95222601F900E35585 /* JKDailyWeatherForecast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKDailyWeatherForecast.h; sourceTree = "<group>"; };
+		ABCBCB96222601F900E35585 /* JKDailyWeatherForecast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDailyWeatherForecast.m; sourceTree = "<group>"; };
+		ABCBCB9922260AEA00E35585 /* JKDailyWeatherForecastController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKDailyWeatherForecastController.h; sourceTree = "<group>"; };
+		ABCBCB9A22260AEA00E35585 /* JKDailyWeatherForecastController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKDailyWeatherForecastController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,8 @@
 			children = (
 				467D7F662163766F00E7FF73 /* AppDelegate.h */,
 				467D7F672163766F00E7FF73 /* AppDelegate.m */,
+				ABCBCB9822260AAF00E35585 /* Model Controller */,
+				ABCBCB942226019800E35585 /* Model */,
 				ABCBCB902225F5AE00E35585 /* Views */,
 				ABCBCB8C2225F54800E35585 /* View Controllers */,
 				467D7F6C2163766F00E7FF73 /* Main.storyboard */,
@@ -90,6 +98,24 @@
 				ABCBCB8E2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		ABCBCB942226019800E35585 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBCB95222601F900E35585 /* JKDailyWeatherForecast.h */,
+				ABCBCB96222601F900E35585 /* JKDailyWeatherForecast.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABCBCB9822260AAF00E35585 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABCBCB9922260AEA00E35585 /* JKDailyWeatherForecastController.h */,
+				ABCBCB9A22260AEA00E35585 /* JKDailyWeatherForecastController.m */,
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +188,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCBCB97222601F900E35585 /* JKDailyWeatherForecast.m in Sources */,
 				ABCBCB8F2225F5A800E35585 /* JKDailyWeatherCollectionViewCell.m in Sources */,
 				ABCBCB932225F60000E35585 /* JKWeatherForecastViewController.m in Sources */,
 				467D7F762163767000E7FF73 /* main.m in Sources */,
+				ABCBCB9B22260AEA00E35585 /* JKDailyWeatherForecastController.m in Sources */,
 				467D7F682163766F00E7FF73 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
