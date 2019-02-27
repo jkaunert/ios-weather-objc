@@ -26,6 +26,13 @@
 
 @implementation JKDailyWeatherForecastController
 
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        //
+    }
+    return self;
+}
 - (instancetype)initWithArray:(NSMutableArray *)array {
     self = [super init];
     if (self != nil) {

@@ -107,6 +107,7 @@
                     </view>
                     <connections>
                         <outlet property="citySearchBar" destination="aFG-li-TvI" id="Hug-dn-gq6"/>
+                        <outlet property="dailyWeatherForecastCollectionView" destination="3s5-8e-hfc" id="AKV-gd-nsh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0te-cs-6Wv" userLabel="First Responder" sceneMemberID="firstResponder"/>

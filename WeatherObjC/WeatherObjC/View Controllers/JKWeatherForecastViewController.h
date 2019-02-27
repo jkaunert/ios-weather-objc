@@ -7,17 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JKDailyWeatherForecastController.h"
+#import "JKDailyWeatherCollectionViewCell.h"
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface JKWeatherForecastViewController : UIViewController <UISearchBarDelegate>
-
-- (void)citySearchBar:(UISearchBar *)citySearchBar textDidChange:(NSString *)citySearchText;
+@interface JKWeatherForecastViewController : UIViewController <UISearchBarDelegate, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 
 - (void)citySearchBarSearchButtonClicked:(UISearchBar *)citySearchBar;
 
+@property JKDailyWeatherForecastController *dailyWeatherForecastController;
+@property (weak, nonatomic) IBOutlet UICollectionView *dailyWeatherForecastCollectionView;
 @property (weak, nonatomic) IBOutlet UISearchBar *citySearchBar;
 
 @end
 
-NS_ASSUME_NONNULL_END

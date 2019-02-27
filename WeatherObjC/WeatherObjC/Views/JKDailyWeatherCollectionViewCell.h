@@ -7,16 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JKDailyWeatherForecast.h"
 
-
-NS_ASSUME_NONNULL_BEGIN
 
 @interface JKDailyWeatherCollectionViewCell : UICollectionViewCell
 
+@property (nonatomic)JKDailyWeatherForecast *dailyForecast;
 @property (weak, nonatomic) IBOutlet UIImageView *weatherIconImageView;
 @property (weak, nonatomic) IBOutlet UILabel *temperatureLabel;
 @property (weak, nonatomic) IBOutlet UILabel *cityNameLabel;
 
 @end
 
-NS_ASSUME_NONNULL_END
